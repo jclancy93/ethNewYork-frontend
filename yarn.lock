@@ -1560,6 +1560,19 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
+"@walletconnect/qrcode-modal@^1.0.0-beta.22":
+  version "1.0.0-beta.22"
+  resolved "https://registry.yarnpkg.com/@walletconnect/qrcode-modal/-/qrcode-modal-1.0.0-beta.22.tgz#d6f1a8d4215159d7956c80fbec04e97ce52b0c18"
+  integrity sha512-sTxRCHWLBZ+MFhkBWjZvpnJhikeVSE649q3H5e217x9zCPJ4JW7r8xX6e3w6+ocCPEzHk2F0GC+cCyHi/xLflg==
+  dependencies:
+    "@walletconnect/types" "^1.0.0-beta.21"
+    qr-image "^3.2.0"
+
+"@walletconnect/types@^1.0.0-beta.21":
+  version "1.0.0-beta.22"
+  resolved "https://registry.yarnpkg.com/@walletconnect/types/-/types-1.0.0-beta.22.tgz#af03e90a6b3e50911e6521423d3e61bf8e0527c3"
+  integrity sha512-9L78e/X6eiHZZE0jpwV94wdDdx0n5KzdlxRie344W5mH9v5QtSotVo/egDtMpm0/Z9KJjQCb5gLftAuFHWXf2w==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -10294,6 +10307,11 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+
+qr-image@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/qr-image/-/qr-image-3.2.0.tgz#9fa8295beae50c4a149cf9f909a1db464a8672e8"
+  integrity sha1-n6gpW+rlDEoUnPn5CaHbRkqGcug=
 
 qs@6.5.2, qs@~6.5.2:
   version "6.5.2"
