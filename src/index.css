@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1440px) {
+  .ui.text.container {
+    max-width: 1000px !important;
+  }
+
+  /* .ui.grid.container {
+    width: calc( 723px  +  2rem ) !important;
+  } */
 }

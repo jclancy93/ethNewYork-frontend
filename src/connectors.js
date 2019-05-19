@@ -24,10 +24,6 @@ const Injected = new InjectedConnector({
   supportedNetworks: [1, 4]
 });
 
-const Network = new NetworkOnlyConnector({
-  providerURL: supportedNetworkURLs[1]
-});
-
 const Trezor = new TrezorConnector({
   api: TrezorApi,
   supportedNetworkURLs,
@@ -56,7 +52,6 @@ const Fortmatic = new FortmaticConnector({
 
 export default {
   Injected,
-  Network,
   Trezor,
   Ledger,
   WalletConnect,
