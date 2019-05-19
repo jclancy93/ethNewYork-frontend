@@ -71,7 +71,7 @@ export class WalletContainer extends React.Component {
   }
 
   fetchData = async (address) => {
-    const response = await axios.get(`http://localhost:8080/wallets/${this.props.address}`);
+    const response = await axios.get(`https://serene-headland-10507.herokuapp.com/${this.props.address}`);
     return response.data;
   };
 
