@@ -22,8 +22,8 @@ export class Positions extends React.Component {
                   <Card.Description>{longToFixed(asset.balance)} {asset.symbol}</Card.Description>
                   <Card.Description>${longToFixed(asset.price)}</Card.Description>
                   <Card.Description>${longToFixed(asset.price * asset.balance)}</Card.Description>
-                  <Button primary>Earn  { percentToFixed(asset.lendRate) }%</Button>
-                  <Button secondary>Borrow  { percentToFixed(asset.borrowRate) }%</Button>
+                  <Button primary>Earn  { percentToFixed(asset.lendRate) }% @ { asset.lendProtocol }</Button>
+                  <Button secondary>Borrow  { percentToFixed(asset.borrowRate) }% @ { asset.borrowProtocol }</Button>
                 </Card.Content>
               )
         ))
